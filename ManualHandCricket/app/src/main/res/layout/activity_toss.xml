@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Toss"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Toss Time!!"
+        android:textColor="#000"
+        android:textSize="50sp"
+        android:layout_gravity="center_horizontal"/>
+
+    <TextView
+        android:id="@+id/des_tv_youChose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text=""
+        android:textSize="30sp" />
+
+
+    <TextView
+        android:id="@+id/des_tv_itis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text=""
+        android:textSize="30sp" />
+    <Button
+        android:id="@+id/des_btn_next"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:textSize="40sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+
+
+        <Button
+            android:id="@+id/des_btn_heads"
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:text="Heads"
+            android:textSize="40sp" />
+
+
+        <Button
+            android:id="@+id/des_btn_tails"
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:text="Tails"
+            android:textSize="40sp" />
+
+
+
+
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/des_tv_wonlost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text=""
+        android:textSize="30sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/des_tv_choose"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Choose"
+            android:textSize="30sp" />
+
+        <LinearLayout
+            android:layout_width="182dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:orientation="vertical">
+
+
+            <Button
+                android:id="@+id/des_btn_bat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bat"
+                android:textSize="20sp" />
+
+
+            <Button
+                android:id="@+id/des_btn_bowl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bowl"
+                android:textSize="20sp" />
+
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
